@@ -1,0 +1,114 @@
+--2208464f-A--
+[28/Sep/2019:09:03:46 --0300] XY9MIawSAAMAAAAg49wAAAAD 172.18.0.1 38050 172.18.0.3 80
+--2208464f-B--
+GET / HTTP/1.1
+Host: localhost:8080
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+Sec-Fetch-Mode: navigate
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Sec-Fetch-Site: cross-site
+Accept-Encoding: gzip, deflate, br
+Accept-Language: es-419,es;q=0.9,en;q=0.8
+Cookie: _ga=GA1.1.1348643375.1563412549; COOKIE_SUPPORT=true; GUEST_LANGUAGE_ID=es_ES; COMPANY_ID=20115; ID=573038786945522f7365334273616a6c3141415057513d3d; LOGIN=74657374406c6966657261792e636f6d; PASSWORD=566d455637714145656e2f64645349756447515650513d3d; REMEMBER_ME=true; SCREEN_NAME=6d613736316144616b684443425a6d5a58504d4237673d3d
+
+--2208464f-F--
+HTTP/1.1 500 Internal Server Error
+Expires: Wed, 11 Jan 1984 05:00:00 GMT
+Cache-Control: no-cache, must-revalidate, max-age=0
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=utf-8
+
+--2208464f-E--
+
+--2208464f-H--
+Apache-Handler: proxy:fcgi://127.0.0.1:9000
+Stopwatch: 1569672225458013 880909 (- - -)
+Stopwatch2: 1569672225458013 880909; combined=23960, p1=18644, p2=4866, p3=75, p4=257, p5=118, sr=2116, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.1 (http://www.modsecurity.org/); OWASP_CRS/3.0.0.
+Server: Apache
+Engine-Mode: "ENABLED"
+
+--2208464f-Z--
+
+--2208464f-A--
+[28/Sep/2019:09:03:55 --0300] XY9MK6wSAAMAAAAfyAAAAAAC 172.18.0.1 38058 172.18.0.3 80
+--2208464f-B--
+GET / HTTP/1.1
+Host: localhost:8080
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Sec-Fetch-Site: cross-site
+Accept-Encoding: gzip, deflate, br
+Accept-Language: es-419,es;q=0.9,en;q=0.8
+Cookie: _ga=GA1.1.1348643375.1563412549; COOKIE_SUPPORT=true; GUEST_LANGUAGE_ID=es_ES; COMPANY_ID=20115; ID=573038786945522f7365334273616a6c3141415057513d3d; LOGIN=74657374406c6966657261792e636f6d; PASSWORD=566d455637714145656e2f64645349756447515650513d3d; REMEMBER_ME=true; SCREEN_NAME=6d613736316144616b684443425a6d5a58504d4237673d3d
+
+--2208464f-F--
+HTTP/1.1 500 Internal Server Error
+Expires: Wed, 11 Jan 1984 05:00:00 GMT
+Cache-Control: no-cache, must-revalidate, max-age=0
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=utf-8
+
+--2208464f-E--
+
+--2208464f-H--
+Apache-Handler: proxy:fcgi://127.0.0.1:9000
+Stopwatch: 1569672235171710 289208 (- - -)
+Stopwatch2: 1569672235171710 289208; combined=6608, p1=711, p2=5627, p3=87, p4=143, p5=40, sr=41, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.1 (http://www.modsecurity.org/); OWASP_CRS/3.0.0.
+Server: Apache
+Engine-Mode: "ENABLED"
+
+--2208464f-Z--
+
+--84edda72-A--
+[28/Sep/2019:09:04:31 --0300] XY9MT6wSAAMAAAAdC2AAAAAA 172.18.0.1 38066 172.18.0.3 80
+--84edda72-B--
+GET /wp-admin/ HTTP/1.1
+Host: localhost:8080
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Sec-Fetch-Site: none
+Accept-Encoding: gzip, deflate, br
+Accept-Language: es-419,es;q=0.9,en;q=0.8
+Cookie: _ga=GA1.1.1348643375.1563412549; COOKIE_SUPPORT=true; GUEST_LANGUAGE_ID=es_ES; COMPANY_ID=20115; ID=573038786945522f7365334273616a6c3141415057513d3d; LOGIN=74657374406c6966657261792e636f6d; PASSWORD=566d455637714145656e2f64645349756447515650513d3d; REMEMBER_ME=true; SCREEN_NAME=6d613736316144616b684443425a6d5a58504d4237673d3d
+
+--84edda72-F--
+HTTP/1.1 500 Internal Server Error
+Expires: Wed, 11 Jan 1984 05:00:00 GMT
+Cache-Control: no-cache, must-revalidate, max-age=0
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=utf-8
+
+--84edda72-H--
+Apache-Handler: proxy:fcgi://127.0.0.1:9000
+Stopwatch: 1569672271663986 213342 (- - -)
+Stopwatch2: 1569672271663986 213342; combined=466, p1=453, p2=0, p3=0, p4=0, p5=12, sr=17, sw=1, l=0, gc=0
+Producer: ModSecurity for Apache/2.9.1 (http://www.modsecurity.org/); OWASP_CRS/3.0.0.
+Server: Apache
+
+--84edda72-Z--
+

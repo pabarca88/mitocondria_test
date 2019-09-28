@@ -1,0 +1,125 @@
+// main: ../estilos.scss
+header {
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+    background: #fff;
+    z-index: 10;
+    -webkit-box-shadow: 4px 0 20px -10px rgba(0, 0, 0, 0.2);
+    box-shadow: 4px 0 20px -10px rgba(0, 0, 0, 0.2);
+    ul {
+      list-style: none;
+      padding-left: 0;
+      @include flex-center;
+      margin: 0;
+      li {
+        a {
+          color: $color-negro;
+          padding: 10px 20px;
+          display: block;
+          cursor: pointer;
+
+          &.activo,&:hover {
+            color: $color-verde;
+          }
+        }
+      }
+    }
+    @include respond-to(768px){
+      position: fixed;
+      right: -300px;
+      width: 300px;
+      opacity: 0;
+      visibility: hidden;
+      left: auto;
+      transition:cubic-bezier(.77,0,.175,1) .5s;
+      height: 100%;
+      -webkit-box-shadow: -1px 0px 13px 0px rgba(0,0,0,0.35);
+      -moz-box-shadow: -1px 0px 13px 0px rgba(0,0,0,0.35);
+      box-shadow: -1px 0px 13px 0px rgba(0,0,0,0.35);
+      padding-top: 80px;
+      ul {
+        display: block;
+        li {
+          font-size: 1.3em;
+          margin-bottom: 8px;
+          a {
+            padding-left: 30px;
+          }
+        }
+      }
+      &.visible {
+        opacity: 1;
+        visibility: visible;
+        right: 0;
+      }
+    }
+  }
+  .logo {
+    color: $color-negro;
+    text-align: center;
+    margin: 64px 0 0;
+    font-size: 2em;
+    font-weight: normal;
+    a {
+      color: $color-negro;
+    }
+    span {
+      color: $color-verde;
+    }
+    @include respond-to(768px){
+      margin: 22px 0 0;
+      text-align: left;
+    }
+  }
+  .btn-menu {
+    display: none;
+    position: absolute;
+    top: 20px;
+    right: 140px;
+    z-index: 999;
+  }
+  
+  .btn-menu span {
+    width: 35px;
+    height: 5px;
+    background-color: $color-negro;
+    margin: 6px 0;
+    transition: 0.4s;
+    display: block;
+  }
+  
+  .btn-menu.open {
+    position: fixed;
+  }
+  
+  .btn-menu.open span:nth-child(1) {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+  
+  .btn-menu.open span:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .btn-menu.open span:nth-child(3) {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .btn-menu {
+      display: block;
+      right: 40px;
+    }
+  }
+  
+  @media only screen and (max-width: 640px) {
+    .btn-menu {
+      right: 20px;
+    }
+  }
+}

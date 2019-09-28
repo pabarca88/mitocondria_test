@@ -1,0 +1,17 @@
+/*--Desarrollado por PABLO ABARCA T--*/
+// Librerias, Settings y Variables
+@import "lib/variables";
+@import "lib/mixins";
+
+// Elementos Base
+@import "base/general";
+@import "base/botones";
+
+//Layout
+
+@import "layout/header";
+@import "layout/home";
+@import "layout/footer";
+
+//Componentes
+@import "componentes/carrusel";

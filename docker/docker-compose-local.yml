@@ -1,0 +1,36 @@
+version: '3.0'
+services:
+  test-front:
+    image: docker.mitocondria.cl/apache2.4-fpm7.2:wordpress-latest
+    container_name: wordpress-test-front
+    depends_on:
+    - db-wordpress-test-front
+    networks:
+    - test-front
+    ports:
+    - 8080:80
+    volumes:
+    - ../html:/var/www/app/html
+    - ../docker/apache2/sites-enabled-dev:/etc/apache2/sites-enabled
+    - ../docker/crontab/crontab:/etc/crontab
+    - ../logs:/var/www/app/logs
+    restart: always
+  db-wordpress-test-front:
+    image: mariadb:10.3.16
+    container_name: db-wordpress-test-front
+    networks:
+    - test-front
+    volumes:
+    - ../docker/mysql_data:/var/lib/mysql
+    - ../docker/mysql:/etc/mysql/mariadb.conf.d
+    - ../DB/local:/docker-entrypoint-initdb.d
+    restart: always
+    environment:
+      MYSQL_USERNAME: root
+      MYSQL_ROOT_PASSWORD: mitotaller
+      MYSQL_DATABASE: test-front
+      MYSQL_USER: test-front
+      MYSQL_PASSWORD: test-front
+networks:
+  test-front:
+    driver: bridge

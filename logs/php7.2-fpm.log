@@ -1,0 +1,31 @@
+[28-Sep-2019 09:03:35] NOTICE: fpm is running, pid 14
+[28-Sep-2019 09:03:35] NOTICE: ready to handle connections
+[28-Sep-2019 09:03:35] NOTICE: systemd monitor interval set to 10000ms
+[28-Sep-2019 09:05:27] ERROR: failed to ptrace(ATTACH) child 16: Operation not permitted (1)
+[28-Sep-2019 09:05:27] WARNING: [pool www] child 16, script '/var/www/app/html/wp-admin/index.php' (request: "GET /wp-admin/index.php") executing too slow (4.048344 sec), logging
+[28-Sep-2019 09:38:19] ERROR: failed to ptrace(ATTACH) child 57: Operation not permitted (1)
+[28-Sep-2019 09:38:19] WARNING: [pool www] child 57, script '/var/www/app/html/wp-admin/admin-ajax.php' (request: "POST /wp-admin/admin-ajax.php") executing too slow (4.381292 sec), logging
+[28-Sep-2019 09:38:35] ERROR: failed to ptrace(ATTACH) child 16: Operation not permitted (1)
+[28-Sep-2019 09:38:35] WARNING: [pool www] child 16, script '/var/www/app/html/wp-admin/plugins.php' (request: "GET /wp-admin/plugins.php?_wpnonce=3ed817b523&action=activate&plugin=acf-extended/acf-extended.php") executing too slow (4.046357 sec), logging
+[28-Sep-2019 09:41:24] ERROR: failed to ptrace(ATTACH) child 15: Operation not permitted (1)
+[28-Sep-2019 09:41:24] WARNING: [pool www] child 15, script '/var/www/app/html/wp-admin/update.php' (request: "POST /wp-admin/update.php?action=upload-plugin") executing too slow (4.367989 sec), logging
+[28-Sep-2019 09:41:46] ERROR: failed to ptrace(ATTACH) child 16: Operation not permitted (1)
+[28-Sep-2019 09:41:46] WARNING: [pool www] child 16, script '/var/www/app/html/wp-admin/plugins.php' (request: "GET /wp-admin/plugins.php") executing too slow (4.845128 sec), logging
+[28-Sep-2019 09:42:12] ERROR: failed to ptrace(ATTACH) child 57: Operation not permitted (1)
+[28-Sep-2019 09:42:12] WARNING: [pool www] child 57, script '/var/www/app/html/wp-admin/update.php' (request: "POST /wp-admin/update.php?action=upload-plugin") executing too slow (4.945724 sec), logging
+[28-Sep-2019 09:42:32] ERROR: failed to ptrace(ATTACH) child 16: Operation not permitted (1)
+[28-Sep-2019 09:42:32] WARNING: [pool www] child 16, script '/var/www/app/html/wp-admin/plugins.php' (request: "GET /wp-admin/plugins.php?action=activate&plugin=advanced-custom-fields-pro%2Facf.php&_wpnonce=f53efb64df") executing too slow (4.795136 sec), logging
+[28-Sep-2019 09:47:49] ERROR: failed to ptrace(ATTACH) child 378: Operation not permitted (1)
+[28-Sep-2019 09:47:49] WARNING: [pool www] child 378, script '/var/www/app/html/wp-admin/async-upload.php' (request: "POST /wp-admin/async-upload.php") executing too slow (4.089613 sec), logging
+[28-Sep-2019 09:55:32] ERROR: failed to ptrace(ATTACH) child 473: Operation not permitted (1)
+[28-Sep-2019 09:55:32] WARNING: [pool www] child 473, script '/var/www/app/html/wp-admin/admin-ajax.php' (request: "POST /wp-admin/admin-ajax.php") executing too slow (4.083645 sec), logging
+[28-Sep-2019 09:55:56] ERROR: failed to ptrace(ATTACH) child 381: Operation not permitted (1)
+[28-Sep-2019 09:55:56] WARNING: [pool www] child 381, script '/var/www/app/html/wp-admin/plugins.php' (request: "GET /wp-admin/plugins.php?_wpnonce=72d26826bc&action=activate&plugin=advanced-custom-fields/acf.php") executing too slow (5.157480 sec), logging
+[28-Sep-2019 09:57:22] ERROR: failed to ptrace(ATTACH) child 381: Operation not permitted (1)
+[28-Sep-2019 09:57:22] WARNING: [pool www] child 381, script '/var/www/app/html/wp-admin/update.php' (request: "POST /wp-admin/update.php?action=upload-plugin") executing too slow (5.142975 sec), logging
+[28-Sep-2019 09:57:41] ERROR: failed to ptrace(ATTACH) child 473: Operation not permitted (1)
+[28-Sep-2019 09:57:41] WARNING: [pool www] child 473, script '/var/www/app/html/wp-admin/plugins.php' (request: "GET /wp-admin/plugins.php?action=activate&plugin=advanced-custom-fields-pro%2Facf.php&_wpnonce=f53efb64df") executing too slow (4.656666 sec), logging
+[28-Sep-2019 10:37:33] ERROR: failed to ptrace(ATTACH) child 920: Operation not permitted (1)
+[28-Sep-2019 10:37:33] WARNING: [pool www] child 920, script '/var/www/app/html/wp-admin/admin-ajax.php' (request: "POST /wp-admin/admin-ajax.php") executing too slow (4.276434 sec), logging
+[28-Sep-2019 10:37:53] ERROR: failed to ptrace(ATTACH) child 988: Operation not permitted (1)
+[28-Sep-2019 10:37:53] WARNING: [pool www] child 988, script '/var/www/app/html/wp-admin/plugins.php' (request: "GET /wp-admin/plugins.php?_wpnonce=0f7bcf213c&action=activate&plugin=contact-form-7/wp-contact-form-7.php") executing too slow (4.917485 sec), logging

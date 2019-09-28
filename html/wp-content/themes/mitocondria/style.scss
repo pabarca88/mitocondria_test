@@ -1,0 +1,17 @@
+/*--Desarrollado por PABLO ABARCA T--*/
+// Librerias, Settings y Variables
+@import "sass/lib/variables";
+@import "sass/lib/mixins";
+
+// Elementos Base
+@import "sass/base/general";
+@import "sass/base/botones";
+
+//Layout
+
+@import "sass/layout/header";
+@import "sass/layout/home";
+@import "sass/layout/footer";
+
+//Componentes
+@import "sass/componentes/carrusel";

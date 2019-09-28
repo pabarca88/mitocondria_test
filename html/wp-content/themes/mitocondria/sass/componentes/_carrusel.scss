@@ -1,0 +1,33 @@
+// main: ../estilos.scss
+.carrusel {
+  position: relative;
+
+  &.con-nav {
+    padding: 0 40px;
+  }
+  .tns-nav {
+    text-align: center;
+    margin-top: 20px;
+
+    button {
+      width: 10px;
+      height: 10px;
+      display: inline-block;
+      border: 1px solid transparent;
+      border-radius: 100%;
+      margin: 0 6px;
+      background: #dee2e6;
+      padding: 0;
+
+      &.tns-nav-active {
+        background: $color-verde;
+      }
+
+      @include respond-to(1500px) {
+        width: 10px;
+        height: 10px;
+      }
+    }
+  }
+
+}
